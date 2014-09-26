@@ -1,0 +1,24 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+    <button id="myButton" type="button">Click Me!</button>
+    
+    <script>
+        var myButton = document.getElementById("myButton");
+        
+        function alertHello () {
+            alert("Hello");
+            window.location = "js-call:myObjectiveCFunction";
+        };
+    
+        myButton.onclick = function(){ alertHello() };
+
+
+    </script>
+
+</body>
+</html>
